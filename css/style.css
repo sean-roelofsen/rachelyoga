@@ -9743,6 +9743,18 @@ textarea.form-control {
     -ms-transform: translateY(-50%);
     transform: translateY(-50%); }
 
+/* New styles for text content padding */
+.text-bio-content {
+    padding: 20px;
+}
+
+@media (max-width: 768px) {
+    .text-bio-content {
+        padding: 10px;
+    }
+}
+
+
 #ftco-loader {
   position: fixed;
   width: 96px;
